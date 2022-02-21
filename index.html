@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Tracking App</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="left">
+            <div class="Library">
+                <h1>Library</h1>
+                <div class="my_book">
+                    <img class="left_side_icon" src="/img/book (2).png"> <span>My Books </span>
+                </div>
+
+                <div class="add_new_book">
+                    <img class="left_side_icon" src="/img/add.png"> <span>Add your Book </span>
+                </div>
+            </div>
+
+            <div class="Setting">
+                <h1>Setting</h1>
+                <div class="add_new_book">
+                    <span>Dark Mode</span>
+                    <div id="toggle">
+                        <i class="indicator"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="right">
+            <div class="heading">
+                <div class="h1">
+                    <h1>Book Library</h1>
+                </div>
+                <div class="list_grid">
+                    <span><img class="right_side_icon" onClick="gridVeiw();" src="/img/grid.png"></span>
+                    <span><img onClick="listVeiw();" class="right_side_icon" src="/img/list.png"></span>
+                    <span><img class="right_side_icon" src="/img/search.png"></span>
+                </div>
+            </div>
+
+               
+
+            <div  class="booksdiv" id="bookdiv">
+                <div class="bookline1">
+                    <div  class="item"> <img onClick="Popup();" class="books" src="/img/computer 4.jpg">
+                        <h3>Computer Knowledge</h3>
+                        <p>Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Railways/ Insurance Exams 2nd
+                            Edition</p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/computer 5.jpg">
+                        <h3>Computer Learing</h3>
+                        <p>Step By Step Computer Learning (Information Technology) </p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/computer 7.jpg">
+                        <h3>Computer Science</h3>
+                        <p>Practical Note Book Computer Science</p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/computer world.jpg">
+                        <h3>Computer world</h3>
+                        <p>Objective Computer Awareness Paperback </p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/computer application.jpg">
+                        <h3>Computer Application</h3>
+                        <p>A Textbook Of Computer Applications For Class 10</p>
+                    </div>
+                </div>
+
+                <div class="bookline1">
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/html.png">
+                        <h3>Html</h3>
+                        <p>Web Design With HTML & CSS: HTML & CSS Complete Beginner's Guide Paperback</p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/html2.jpg">
+                        <h3>Html2</h3>
+                        <p>Thinking in HTML Kindle Edition</p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/html3.png">
+                        <h3>Html3</h3>
+                        <p>HTML and CSS: Design and Build Websites Paperback – Illustrated</p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/html4.jpg">
+                        <h3>Html4</h3>
+                        <p>Mastering Html, Css & Javascript Web Publishing</p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/html5.jpg">
+                        <h3>Html5</h3>
+                        <p>HTML 5 Black Book, Covers CSS 3, JavaScript, XML, XHTML, AJAX, PHP and jQuery, 2ed 2nd
+                            Edition, Kindle Edition</p>
+                    </div>
+                </div>
+                <div class="bookline1">
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/js.jpg">
+                        <h3>JavaScript</h3>
+                        <p>Javascript For Gurus Paperback </p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/js2.jpg">
+                        <h3>JavaScript Ltreaning</h3>
+                        <p>Javascript For Modern Web Development: Building A Web Application Using Html, Css, And
+                            Javascript</p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/js3.jpg">
+                        <h3>JavaScript Beginning</h3>
+                        <p>Thinking in JavaScript Kindle Edition</p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/js4.jpg">
+                        <h3>JavaScript Thinking</h3>
+                        <p>JavaScript: JavaScript Programming Made Easy for Beginners & Intermediates </p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/js5.png">
+                        <h3>Javascript Start</h3>
+                        <p>Start Javascript start Learing</p>
+                    </div>
+                </div>
+                <div class="bookline1">
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/nodejs4.png">
+                        <h3>Nodejs </h3>
+                        <p>nodejs: An Integrated Approach, New: Includes All Versions upto nodejs</p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/nodejs2.jpg">
+                        <h3>nodejs start</h3>
+                        <p>Nodejs step by step Learing </p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();"class="books" src="/img/nodejs5.jpg">
+                        <h3>nodejs Beginner</h3>
+                        <p>nodejs this Editionfor Beginners </p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/nodejs4.png">
+                        <h3>Get programming with node</h3>
+                        <p>start programming with this Edition</p>
+                    </div>
+                    <div class="item"> <img onClick="Popup();" class="books" src="/img/nodejs5.jpg">
+                        <h3>Nodejs 3rd Edition</h3>
+                        <p>This Edition helpful for start programming with nodejs</p>
+                    </div>
+                </div>
+
+                
+
+            </div>
+            
+            <div class="listview" id="listview">
+                 <div class="listofbooks">
+                     <div class="listviewbook" >
+                          <div>  <img src="/img/computer 4.jpg"></div>
+                          <div><h3>Computer Knowledge</h3></div>
+                          <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+                     </div>
+                     <div class="listviewbook" >
+                        <div>  <img src="/img/computer 5.jpg"></div>
+                        <div><h3>Computer Knowledge</h3></div>
+                        <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+                   </div>
+                   <div class="listviewbook" >
+                    <div>  <img src="/img/computer 7.jpg"></div>
+                    <div><h3>Computers</h3></div>
+                    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+               </div>
+               <div class="listviewbook" >
+                <div>  <img src="/img/computer 4.jpg"></div>
+                <div><h3>Computer Knowledge</h3></div>
+                <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+           </div>
+           <div class="listviewbook" >
+            <div>  <img src="/img/html.png"></div>
+            <div><h3>html </h3></div>
+            <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+       </div>
+       <div class="listviewbook" >
+        <div>  <img src="/img/html2.jpg"></div>
+        <div><h3>Html 2</h3></div>
+        <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+   </div>
+   <div class="listviewbook" >
+    <div>  <img src="/img/html3.png"></div>
+    <div><h3>Html 3</h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+<div class="listviewbook" >
+    <div>  <img src="/img/html4.jpg"></div>
+    <div><h3>html 4</h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+<div class="listviewbook" >
+    <div>  <img src="/img/html5.jpg"></div>
+    <div><h3>html 5</h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+<div class="listviewbook" >
+    <div>  <img src="/img/c++2.jpg"></div>
+    <div><h3>C++</h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+<div class="listviewbook" >
+    <div>  <img src="/img/c++3.jpg"></div>
+    <div><h3>C++3</h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+<div class="listviewbook" >
+    <div>  <img src="/img/c.jpg"></div>
+    <div><h3>Programming C</h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+<div class="listviewbook" >
+    <div>  <img src="/img/c2.jpg"></div>
+    <div><h3>Programming C Beginning </h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+<div class="listviewbook" >
+    <div>  <img src="/img/js4.jpg"></div>
+    <div><h3>node.js 4</h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+<div class="listviewbook" >
+    <div>  <img src="/img/js5.png"></div>
+    <div><h3>node.js 5</h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+<div class="listviewbook" >
+    <div>  <img src="/img/js5.png"></div>
+    <div><h3>JavaScript 5</h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+<div class="listviewbook" >
+    <div>  <img src="/img/js5.png"></div>
+    <div><h3>JavaScript 5</h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+<div class="listviewbook" >
+    <div>  <img src="/img/js5.png"></div>
+    <div><h3>JavaScript 5</h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+<div class="listviewbook" >
+    <div>  <img src="/img/js5.png"></div>
+    <div><h3>JavaScript 5</h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+<div class="listviewbook" >
+    <div>  <img src="/img/js5.png"></div>
+    <div><h3>JavaScript 5</h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+<div class="listviewbook" >
+    <div>  <img src="/img/js5.png"></div>
+    <div><h3>JavaScript 5</h3></div>
+    <div><p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning.</p></div>
+</div>
+                 </div>       
+            </div>
+        </div>
+        <div id="pop-up_img">
+            <div  class="discription"> <img  class="books" src="/img/computer 4.jpg"><span>  <img class="close"   onclick="closePopup(); "src="/img/close.png"></span>
+                <h3>Computer Knowledge</h3>
+                <p>The thoroughly Revised & Updated 2nd Edition of the book 'Computer Knowledge for SBI/ IBPS Clerk/ PO/ RRB/ RBI/ SSC/ Insurance Exams' has been written to provide a computer flare and aptitude to all the aspirants of Competitive exams. This edition is empowered with Infographics and Charts for better retention and learning. The book has been divided into 15 broad units. The first 11 units deal with all the fundamental concepts involved in Computers. The next 4 units provides the most commonly used Abbreviations, Glossary, Technologies & Terms used in banking and current information & developments in the IT field. These units will help in understanding the fundamentals and the current developments in the Computer domain. Each Unit covers Quick Concept Review which has important terms in the form of small definitions. This is followed by 2 level of exercises PAST Exercise and Practice Exercise. The Past Exercise covers questions from various competitive exams from the past years at the end of each chapter followed by practice exercise. In all the book includes around 1350+ MCQ questions in the book.</p>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    
+    <script src="myscripts.js"></script>
+</body>
+
+</html>
